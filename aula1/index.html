@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 1: HTML CSS INTRODUÇÃO</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Aula de Introdução a WEB, HTML, CSS!">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		<div class="wrapper">
+			
+			<div class="left">
+				<div id="indice">
+					<h1>Indice</h1>
+					<ol>
+						<li><a href="#texto-em-html">Textos em HTML</a></li>
+						<li><a href="#links">Links</a></li>
+						<li><a href="#imagens">Imagens</a></li>
+						<li><a href="#form-saudebusiness">Formulário de Busca (Saúde Business)</a></li>
+						<li><a href="#form-de-contato">Formulário de Contato</a></li>
+					</ol>
+				</div>
+			</div><!-- left -->
+			
+			<div class="right">
+				<div id="texto-em-html">
+					<h1>Texto em HTML</h1>
+					<p>
+						Esse é meu primeiro Paragrafo!<br>
+						Essa é minha quebra de linha!<br>
+						Eu sou um <b>negrito</b> ou <strong>negrito</strong>!<br>
+						Eu sou um <i>itálico</i>!<br>
+						Eu sou um <big>texto grande</big><br>
+						Eu sou um <small>texto pequeno</small><br>
+						Eu sou um <sup>texto superior</sup>!<br>
+						Eu sou um <sub>texto inferior</sub>!
+					</p>
+				</div>
+
+				<div id="links">
+					<h1>Links</h1>
+					<p>
+						Eu sou um link para o <a href="http://saudebusiness.com/">Saúde Business</a>!<br>
+					</p>
+				</div>
+
+				<div id="imagens">
+					<h1>Imagens</h1>
+					<img src="http://www.culturamix.com/wp-content/gallery/gato-3/POST25d.jpg" alt="Gato">
+				</div>
+
+				<div id="form-saudebusiness">
+					<h1>Formulário de Busca (Saúde Business)</h1>
+
+					<form action="http://saudebusiness.com" method="get">
+
+						<p>
+							<label>Termo buscado</label>
+							<input type="text" name="s">
+						</p>
+
+						<button type="submit">
+							Fazer uma busca
+						</button>
+					</form>
+				</div>
+
+				<div id="form-de-contato">
+					<h1>Formulário de Contato</h1>
+
+					<form action="#" method="post">
+
+						<p>
+							<label>Nome</label><br>
+							<input type="text" name="nome">
+						</p>
+
+						<p>
+							<label>Email</label><br>
+							<input type="email" name="email">
+						</p>
+
+						<p>
+							<label>Idade</label><br>
+							<input type="number" name="idade">
+						</p>
+
+						<p>
+							<label>Assunto</label><br>
+							<select name="assunto">
+								<option value="1">Problemas Técnicos</option>
+								<option value="2">Vendas</option>
+								<option value="3">RH</option>
+								<option value="4">Outros</option>
+							</select>
+						</p>
+
+						<p>
+							<label>Mensagem</label><br>
+							<textarea name="mensagem" cols="30" rows="10"></textarea>
+						</p>
+
+						<p>
+							<button type="submit">Enviar Formulário</button>
+						</p>
+
+					</form>
+
+				</div><!-- formulario-de-contato -->
+			
+			</div><!-- right -->
+		
+		</div><!-- wrapper -->
+		
+		
+	</body>
+</html>

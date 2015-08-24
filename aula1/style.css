@@ -1,0 +1,39 @@
+body {
+	font-size: 20px;
+	background: #c0392b;
+	font-family: 'Verdana';
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 20px auto;
+}
+
+.wrapper .left {
+	width: 300px;
+	float: left;
+	background: #e74c3c;
+	color: #fff;
+	padding: 10px;
+	border: 2px solid #fff;
+}
+
+.left a {
+	color: white;
+}
+
+.left a {
+	color: #ecf0f1;
+}
+
+.wrapper .right {
+	width: 600px;
+	float: right;
+	background: #e74c3c;
+	color: white;
+	padding: 10px;
+}
+
+.wrapper .right a {
+	color: #f0f0f0;
+}
