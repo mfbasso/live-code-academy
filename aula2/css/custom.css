@@ -1,0 +1,26 @@
+.lc-navbar {
+	background: #ff5722;
+}
+
+.lc-navbar .nav>li>a {
+	color: #f4f4f4;
+}
+
+.lc-navbar .nav>li>a:focus, 
+.lc-navbar .nav>li>a:hover {
+	background: #ff1021;
+}
+
+.lc-navbar .nav>li>a:focus {
+	outline: 2px solid #f4f4f4;
+}
+
+.lc-navbar .lc-navbar-brand {
+	color: #f4f4f4;
+	font-weight: bold;
+}
+
+.lc-navbar .lc-navbar-brand:hover,
+.lc-navbar .lc-navbar-brand:focus {
+	color: #ff1021;
+}
