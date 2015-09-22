@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body id="corpo_html">
+
+	<p id="frase">Aqui tem uma frase!</p>
+	<p><a href="#" onclick="mudarFrase();">Mudar Frase</a></p>
+	<p><a href="#" onclick="mudarFonte();">Mudar Tamanho da Fonte</a></p>
+	<p><a href="#" onclick="mudarFrase();mudarFonte();">Mudar Frase e Fonte</a></p>
+	<p><a href="#" onclick="alertHTML();">Alerta todo o HTML</a></p>
+
+	<p>
+		Valor de A: <input type="number" id="a"><br>
+		Valor de B: <input type="number" id="b"><br>
+		Total= <span id="total">0,00</span><br>
+		Amount = <span id="amount">0</span><br>
+		<a href="#" onclick="calcular();">Calcular</a>
+	</p>
+
+	<script>
+
+		var amount = 0;
+		
+		function mudarFrase() {
+			document.getElementById("frase").innerHTML = "A frase mudou!";
+			console.log(document.getElementById('frase').innerHTML);
+		}
+
+		function mudarFonte() {
+			document.getElementById('frase').style.fontSize = "30px";
+		}
+
+		function alertHTML() {
+			var body = document.getElementById('corpo_html').innerHTML;
+			window.alert(body);
+		}
+
+		function calcular() {
+
+			//Capturo o valor das variaveis
+			var a,b, total;
+			a = parseInt(document.getElementById('a').value);
+			b = parseInt(document.getElementById('b').value);
+			total = b + a;
+			amount = amount + total;
+
+			document.getElementById('total').innerHTML = total;
+			document.getElementById('amount').innerHTML = amount;
+
+
+		}
+		
+	</script>
+
+</body>
+</html>

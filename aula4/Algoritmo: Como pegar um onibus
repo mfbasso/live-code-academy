@@ -1,0 +1,37 @@
+ Algoritmo: Como pegar um onibus
+
+1) Verificar a placa PARA CADA ONIBUS;
+2) SE o numero ou nome do onibus e´ o destino que voce procura, ENTAO voce continua a executar os outros passos, SE NAO voltar para o passo 1;
+3) Caminha ate a guia da calçada;
+4) Levanta a mao;
+5) SE o onibus estiver ha 10 metros, ENTAO abaixa a mao;
+6) SE o onibus parar, esperar a porta dianteira abrir, SE NAO voltar para o passo 1; // Tratamento de erro
+7) SE a porta dianteira abrir, ENTAO entrar no onibus, SE NAO chutar a porta dianteira;
+8) SE a porta dianteira abrir, ENTAO entrar no onibus, SE NAO voltar para o passo 1;
+9) Avançar ate a catraca;
+10) Decidir forma de pagamento: bilhete ou dinheiro;
+11) SE for bilhete, ENTAO sacar o bilhete e aproximar do leitor, SE NAO
+	 pegar o dinheiro do bolso,
+	 contar o dinheiro,
+	 entregar ao cobrador,
+	 SE dinehiro for maior que valor da passagem,
+	 	ENTAO	esperar o troco
+	 	SE o troco NAO estiver certo
+	 	ENTAO reclamar ao cobrador,
+	 	esperar a entrega do troco
+12) SE a passagem foi liberada, ENTAO passar pela catraca;
+13) PARA CADA assento observado SE houver lugar para sentar E nao for preferncial, ENTAO sentar, SE NAO segurar na barra de segurança;
+14) SE eu estiver de pe, ENTAO PARA CADA pessoa que descer voltar ao passo 13;
+15) SE a parada atual for a estaçao anterior a minha, ENTAO aperto o botao de parada;
+16) Identificar a porta de saida;
+17) SE eu estiver sentado, ENTAO levantar;
+18) Me dirigir a porta;
+19) Aguardar o onibus parar;
+20) SE o onibus nao parar E estiver ha 10 metros do ponto, ENTAO gritar para o motorista: "Vou descer";
+21) Aguardar a porta abrir;
+22) SE a porta nao abrir E o onibus estiver parado, ENTAO gritar para o motorista: "Abre que vou descer";
+23) SE a porta estiver aberta, ENTAO descer do onibus, SE NAO voltar ao passo 21;
+24) FIM;
+
+
+11) PagarOnibuis()
