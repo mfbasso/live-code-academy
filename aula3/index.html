@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Aula 3</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- CSS Custom -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-inverse lc-navbar">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand lc-navbar-brand" href="#">Start Bootstrap</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right lc-navbar-nav">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="jumbotron lc-jumbotron">
+      <div class="container">
+        <img class="img-responsive center-block" src="img/profile.png" alt="Jumbotron">
+        <h1>Start Bootstrap</h1>
+        <p>Web Developer - Graphic Artist - User Experience Designer</p>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        
+        <div class="page-header lc-page-header">
+          <h1>Portfolio</h1> 
+        </div>
+
+        <div class="row lc-portfolio-row">
+          <div class="col-md-4">
+            <img class="img-responsive" src="img/portfolio/cabin.png" alt="Cabin">
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive" src="img/portfolio/cake.png" alt="Cake">
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive" src="img/portfolio/circus.png" alt="Circus">
+          </div>
+        </div>
+        <div class="row lc-portfolio-row">
+          <div class="col-md-4">
+            <img class="img-responsive" src="img/portfolio/game.png" alt="Game">
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive" src="img/portfolio/safe.png" alt="Safe">
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive" src="img/portfolio/submarine.png" alt="Submarine">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="page-header lc-page-header">
+          <h1>About</h1> 
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor, justo quis varius molestie, tortor diam tempus quam, sit amet aliquam metus tellus eget sapien. Nunc vitae quam vitae eros lacinia venenatis sed vitae odio. Phasellus non diam nisi.</p>
+          </div>
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor, justo quis varius molestie, tortor diam tempus quam, sit amet aliquam metus tellus eget sapien. Nunc vitae quam vitae eros lacinia venenatis sed vitae odio. Phasellus non diam nisi.</p>
+          </div>
+        </div><!-- /.row -->
+          <div class="text-center">
+            <a class="btn btn-lg btn-default lc-btn">
+              <span class="glyphicon glyphicon-download-alt"></span>
+              Download Theme
+            </a>
+          </div>
+      </div>
+    </div><!-- /#about -->
+
+    <div id="contact" class="lc-contact">
+      <div class="container">
+        
+        <div class="page-header lc-page-header">
+          <h1>Contact me</h1>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control lc-form-control" id="inputName" name="name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control lc-form-control" id="inputEmail" name="email" placeholder="Email Address">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control lc-form-control" id="inputPhone" name="phone" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control lc-form-control" name="message" placeholder="Message" id="inputMessage" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg lc-btn-submit">Send</button>
+        </form>
+
+
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>

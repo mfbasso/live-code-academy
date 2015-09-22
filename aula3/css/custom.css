@@ -1,0 +1,104 @@
+.lc-navbar {
+	background-color: #2C3E50;
+	border-color: transparent;
+	padding: 30px 0;
+	margin-bottom: 0;
+}
+
+.lc-navbar .lc-navbar-brand {
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.lc-navbar .lc-navbar-nav > li > a {
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.lc-jumbotron {
+	text-align: center;
+	background-color: #18BC9C;
+	padding: 80px 0;
+}
+
+.lc-jumbotron h1 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.lc-jumbotron p {
+	color: #fff;
+	font-size: 26px;
+}
+
+.lc-page-header {
+	text-align: center;
+	border-color: transparent;
+}
+
+.lc-page-header h1 {
+	text-transform: uppercase;
+	color: #2C3E50;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.lc-portfolio-row {
+	margin-bottom: 30px;
+}
+
+#about {
+	background-color: #18BC9C;
+	padding: 80px;
+}
+
+#about .container {
+	max-width: 750px;
+}
+
+#about .lc-page-header h1 {
+	color: #fff;
+}
+
+#about p {
+	color: #fff;
+	font-size: 18px;
+}
+
+.lc-btn {
+	background-color: transparent;
+	border-color: #fff;
+	color: #2C3E50;
+	border-width: 2px;
+}
+
+.lc-contact {
+	padding: 80px 0;
+}
+
+.lc-contact .container {
+	max-width: 750px;
+}
+
+.lc-form-control {
+	font-size: 18px;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	padding-top: 25px;
+	border-radius: 0;
+}
+
+textarea.lc-form-control {
+	border-bottom-color: #ccc;
+}
+
+.lc-btn-submit {
+	background-color: #18BC9C;
+	color: #fff;
+}
